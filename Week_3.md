@@ -61,8 +61,6 @@ I feel a bit more settled into my learning journey. I appreciate the endless amo
 - structure my learning
 - build a decision tree using user stories
 
-  ![TDD Diagram](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48ab52e5-baaa-4932-9da1-948741d10ab7/Untitled.png)
-
 > Test Driven Development
 
 - test-drive a simple program using objects and methods
