@@ -19,20 +19,20 @@ Elsevier Limited London
 1. I can make anything
 
 - [x] I can TDD anything
-- [x]I can program fluently
-- [x]I can debug anything
-- [x]I can model anything
-- [x]I can refactor anything
-- [x]I have a methodical approach to solving problems
+- [x] I can program fluently
+- [x] I can debug anything
+- [x] I can model anything
+- [x] I can refactor anything
+- [x] I have a methodical approach to solving problems
 
 2. I'm equipped for long term growth
 
-- [x]I manage my own wellbeing
-- [x]I can learn anything by myself
+- [x] I manage my own wellbeing
+- [x] I can learn anything by myself
 
 3. I help my teams succeed
 
-- [x]I use an agile product development process
-- [x]I write code that is easy to change
-- [x]I can justify the way I work
-- [x]I grow collaboratively
+- [x] I use an agile product development process
+- [x] I write code that is easy to change
+- [x] I can justify the way I work
+- [x] I grow collaboratively
