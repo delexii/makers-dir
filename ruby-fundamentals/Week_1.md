@@ -1,8 +1,6 @@
-# Makers Apprenticeship
+# Makers Apprenticeship Week 1
 
-### Week 1
-
-### Makers Learning Objectives
+## Makers Learning Objectives
 
 - [x] Navigate a unix command line
 - [x] Version control projects
@@ -14,17 +12,17 @@
 - [Mastery Quizzes, Chapter 4](https://mastery-curriculum.makers.tech/chapter4/)
 - [Mastery Quizzes, Chapter 5](https://mastery-curriculum.makers.tech/chapter5/)
 
-### Applied Learnings
+## Applied Learnings
 
 [Ruby fundamentals](https://github.com/delexii/makers-dir/tree/main/ruby-fundamentals)
 
-### Personal Learning Objectives
+## Personal Learning Objectives
 
 - [x] do not compare my progress with other people
 - [x] create a framework for keeping track of learnings
 - [x] catch up on week 1 course materials and quizzes
 
-### Things to celebrate
+## Things to celebrate
 
 - [x] setting up my first MacBook
 - [x] being **here** at Makers was a big step for me and I could not be happier!
@@ -81,7 +79,7 @@ Nonetheless, I am very happy with my progress so far. I was able to navigate the
 - main differences between `puts`, `print` and `p`
 - classes and their instances (`.new` to instantiate an object)
 
-**Useful resources**
+## Useful resources
 
 [http://www.preparetocode.io/mac/essential/](http://www.preparetocode.io/mac/essential/)
 

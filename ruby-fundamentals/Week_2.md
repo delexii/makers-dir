@@ -1,8 +1,6 @@
-# Makers Apprenticeship
+# Makers Apprenticeship Week 2
 
-### Week 2
-
-### Makers Learning Objectives
+## Makers Learning Objectives
 
 - [x] Navigate a unix command line
 - [x] Version control projects
@@ -14,17 +12,17 @@
 - [x] [Mastery Quizzes, Chapter 9](https://mastery-curriculum.makers.tech/chapter9/)
 - [x] [Mastery Quizzes, Chapter 10](https://mastery-curriculum.makers.tech/chapter10/)
 
-### Applied Learnings
+## Applied Learnings
 
 [Ruby fundamentals](https://github.com/delexii/makers-dir/tree/main/ruby-fundamentals)
 
-### Personal Learning Objectives
+## Personal Learning Objectives
 
 - [x] get a good working foundation of arrays, hashes and classes by end-of-week
 - [x] complete all mastery quizzes
 - [x] understand how to write a procedural program from scratch
 
-### Things to celebrate
+## Things to celebrate
 
 - [x] completing my learning objectives
 - [x] spending time getting to know some of my fellow Elsevier colleagues
@@ -88,14 +86,14 @@ _Keep doing_
 - Learn about door mat vs. sword vs. lantern approach! I am trying to move from a sword approach, in the sense of standing my ground and being a bit more on the assertive end of the spectrum, to a lantern behaviour. Looking to clarify and bring light to different situations.
 - Vulnerability and courage - leadership skills
 
-  How do we make giving and receiving feedback easier?
+> > How do we make giving and receiving feedback easier?
+>
+> 1. Shift your perspective - you choose your reaction and boundaries, become an empowered receiver that can apply the lantern approach
+> 2. Know thyself - truth, relationship, identity triggers
+> 3. Understand feedback
+> 4. Use a framework (ASK)
 
-  1. Shift your perspective - you choose your reaction and boundaries, become an empowered receiver that can apply the lantern approach
-  2. Know thyself - truth, relationship, identity triggers
-  3. Understand feedback
-  4. Use a framework (ASK)
-
-**Useful resources**
+## Useful resources
 
 [http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
 
