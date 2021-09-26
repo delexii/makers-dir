@@ -86,31 +86,31 @@ _Keep doing_
 - Learn about door mat vs. sword vs. lantern approach! I am trying to move from a sword approach, in the sense of standing my ground and being a bit more on the assertive end of the spectrum, to a lantern behaviour. Looking to clarify and bring light to different situations.
 - Vulnerability and courage - leadership skills
 
-> > How do we make giving and receiving feedback easier?
->
-> 1. Shift your perspective - you choose your reaction and boundaries, become an empowered receiver that can apply the lantern approach
-> 2. Know thyself - truth, relationship, identity triggers
-> 3. Understand feedback
-> 4. Use a framework (ASK)
+  How do we make giving and receiving feedback easier?
+
+  1. Shift your perspective - you choose your reaction and boundaries, become an empowered receiver that can apply the lantern approach
+  2. Know thyself - truth, relationship, identity triggers
+  3. Understand feedback
+  4. Use a framework (ASK)
 
 ## Useful resources
 
-[http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
+[Ruby in 100 minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
 
-[http://ruby-for-beginners.rubymonstas.org/](http://ruby-for-beginners.rubymonstas.org/)
+[Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/)
 
-[https://exercism.org/tracks/ruby](https://exercism.org/tracks/ruby)
+[Exercism](https://exercism.org/tracks/ruby)
 
-[https://www.youtube.com/watch?v=t_ispmWmdjY&t=6029s](https://www.youtube.com/watch?v=t_ispmWmdjY&t=6029s)
+[Ruby Class](https://www.rubyguides.com/2019/02/ruby-class/)
 
-[https://www.rubyguides.com/2019/02/ruby-class/](https://www.rubyguides.com/2019/02/ruby-class/)
+[Ruby Full Course](https://www.youtube.com/watch?v=t_ispmWmdjY&t=6029s)
 
-[https://pine.fm/LearnToProgram/chap_00.html](https://pine.fm/LearnToProgram/chap_00.html)
+[Learn to Program](https://pine.fm/LearnToProgram/chap_00.html)
 
-[https://www.youtube.com/watch?v=Bt4Q0nP9Igc](https://www.youtube.com/watch?v=Bt4Q0nP9Igc)
+[Intro to Debugging](https://www.youtube.com/watch?v=Bt4Q0nP9Igc)
 
-[https://medium.com/@nina.semczuk/5-practices-from-deep-work-by-cal-newport-thatll-change-your-life-303847ec5f3c](https://medium.com/@nina.semczuk/5-practices-from-deep-work-by-cal-newport-thatll-change-your-life-303847ec5f3c)
+[Deep Work](https://medium.com/@nina.semczuk/5-practices-from-deep-work-by-cal-newport-thatll-change-your-life-303847ec5f3c)
 
-[https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop](https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop)
+[Code Academy While Loop](https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop)
 
-[https://www.codecademy.com/courses/learn-ruby/lessons/ruby-data-structures/exercises/creating-arrays](https://www.codecademy.com/courses/learn-ruby/lessons/ruby-data-structures/exercises/creating-arrays)
+[Code Academy Arrays](https://www.codecademy.com/courses/learn-ruby/lessons/ruby-data-structures/exercises/creating-arrays)

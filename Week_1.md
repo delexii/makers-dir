@@ -81,10 +81,10 @@ Nonetheless, I am very happy with my progress so far. I was able to navigate the
 
 ## Useful resources
 
-[http://www.preparetocode.io/mac/essential/](http://www.preparetocode.io/mac/essential/)
+[Prepare to Code Essentials](http://www.preparetocode.io/mac/essential/)
 
-[https://learngitbranching.js.org](https://learngitbranching.js.org/?utm_campaign=Learn%20Ruby%20Workflow&utm_medium=email&_hsmi=105566323&_hsenc=p2ANqtz-_4cuiwBQMa0yxuU_YHpqgcnKpqOT8t_K2fukfh_XjeV-NYwy2dJVCrC2vZDsnhOMYOkhp3iyd8mIunCeB8BXb_uLmj0DcXbcvB5jMUAuy0hMqsS0M&utm_content=105566323&utm_source=hs_automation)
+[Learning Git Branching](https://learngitbranching.js.org/?utm_campaign=Learn%20Ruby%20Workflow&utm_medium=email&_hsmi=105566323&_hsenc=p2ANqtz-_4cuiwBQMa0yxuU_YHpqgcnKpqOT8t_K2fukfh_XjeV-NYwy2dJVCrC2vZDsnhOMYOkhp3iyd8mIunCeB8BXb_uLmj0DcXbcvB5jMUAuy0hMqsS0M&utm_content=105566323&utm_source=hs_automation)
 
-[https://www.udemy.com/course/git-and-github-crash-course-creating-a-repository-from-scratch/](https://www.udemy.com/course/git-and-github-crash-course-creating-a-repository-from-scratch/)
+[GitHub Crash Course](https://www.udemy.com/course/git-and-github-crash-course-creating-a-repository-from-scratch/)
 
-[https://ruby-doc.org/core-3.0.0/Enumerable.html](https://ruby-doc.org/core-3.0.0/Enumerable.html)
+[Ruby Enumerable](https://www.notion.so/Week-1-830e2dd8d0704624af76b4c5b650cfb0)
