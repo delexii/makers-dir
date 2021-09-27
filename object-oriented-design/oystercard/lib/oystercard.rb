@@ -11,5 +11,8 @@ class Oystercard
     raise "Card limit exceeded (£#{LIMIT})" if num + self.balance > LIMIT
     @balance += num
   end
-
+  
+  def deduct(num)
+    @balance -= num
+  end
 end
