@@ -5,6 +5,7 @@ RSpec.describe Oystercard do
   let (:card) { Oystercard.new }
   let (:limit) { Oystercard::LIMIT }
   let (:min_amount) { Oystercard::MIN_AMOUNT }
+  let (:entry_station) { double :entry_station}
 
   it "has a default value of 0" do
     expect(card.balance).to eq 0
@@ -25,7 +26,7 @@ RSpec.describe Oystercard do
 
   it "checks whether journey has started" do
     card.top_up(90)
-    card.touch_in
+    card.touch_in(entry_station)
     expect(card.in_journey?).to be true
   end
 
@@ -38,7 +39,13 @@ RSpec.describe Oystercard do
   it "raise error on touch in when balance is lower than £1" do
     card.top_up(90)
     card.send(:deduct, limit)
-    expect { card.touch_in }.to raise_error "Insufficient funds!"
+    expect { card.touch_in(entry_station) }.to raise_error "Insufficient funds!"
+  end
+
+  it "stores the entry station" do
+    card.top_up(90)
+    card.touch_in(entry_station)
+    expect(card.in_journey?).to be true
   end
 
 end
