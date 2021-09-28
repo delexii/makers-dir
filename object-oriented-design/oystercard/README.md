@@ -23,3 +23,42 @@ Ruby version: 3.0
 ## How to run the tests
 
 - `test_command` (e.g. `rspec`)
+
+## Weekly challenge process
+
+Set up the project:
+
+- [x] Create a Gemfile
+- [x] Create RSpec conventional files
+- [x] Review debugging basics
+
+Create a basic Oyster card:
+
+- [x] Add the balance
+- [x] Enable top up functionality
+- [x] Enforce maximum balance
+- [x] Deduct the money
+
+Add touch in/out functionality:
+
+- [x] Add touch in/out support
+- [x] Checking minimum balance on touch in
+- [x] Charging for the journey
+
+Record the journeys
+
+- [x] Saving the entry station
+- [x] Adding journey history
+- [x] Creating the station class
+
+Refactor to extract Journey class
+
+- [x] Handling a journey without a touch out
+
+Refactoring: get the code into shape
+
+- [x] Extracting the journey log out of the Oystercard
+
+Make fares depends on zones
+
+- [x] Calculating the fare between zones
