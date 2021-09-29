@@ -25,9 +25,9 @@ RSpec.describe Oystercard do
   end
 
   it "checks whether journey has started" do
+    allow(card).to receive(:in_journey?).and_return(true)
     card.top_up(90)
-    card.touch_in(entry_station)
-    expect(card.in_journey?).to be true
+    expect(card.in_journey?).to eq true
   end
 
   it "checks whether journey has ended" do
@@ -43,9 +43,9 @@ RSpec.describe Oystercard do
   end
 
   it "stores the entry station" do
+    expect(card).to receive(:touch_in).with(entry_station)
     card.top_up(90)
     card.touch_in(entry_station)
-    expect(card.in_journey?).to be true
   end
 
 end
