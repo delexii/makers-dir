@@ -7,10 +7,6 @@ RSpec.describe Oystercard do
   let (:min_amount) { Oystercard::MIN_AMOUNT }
   let (:entry_station) { :entry_station }
   let (:exit_station) { :exit_station }
-  # let (:journey) { :journey }
-  # let (:journeys) { :journeys }
-  # let (:journey_id) { :journey_id }
-  # let (:journey) { [ :entry_station, :exit_station ] }
   let (:journey){ {entry_station: entry_station, exit_station: exit_station} }
 
 
@@ -68,14 +64,6 @@ RSpec.describe Oystercard do
     card.touch_out(exit_station)
     expect(card.journeys).to include journey
   end
-
-  # it "stores the journey" do
-  #   card.top_up(90)
-  #   card.touch_in(entry_station)
-  #   card.touch_out(exit_station)
-  #   # expect(card.journeys).to include journey_id
-  #   expect(card.journeys).to include journey
-  # end
 
   it "checks list of journeys" do
     expect(card.journeys).to be_empty
