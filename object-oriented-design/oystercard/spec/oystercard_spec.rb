@@ -5,9 +5,7 @@ RSpec.describe Oystercard do
   let (:card) { Oystercard.new }
   let (:limit) { Oystercard::LIMIT }
   let (:min_amount) { Oystercard::MIN_AMOUNT }
-  let (:entry_station) { :entry_station }
-  let (:exit_station) { :exit_station }
-  let (:journey){ {entry_station: entry_station, exit_station: exit_station} }
+  let (:station) { double :station }
 
 
   it "has a default value of 0" do
@@ -34,35 +32,35 @@ RSpec.describe Oystercard do
   end
 
   it "checks whether journey has ended" do
-    card.touch_out(exit_station)
+    card.touch_out(station)
     expect(card).not_to be_in_journey
-    expect { card.touch_out(exit_station) }.to change { card.balance }.by (-min_amount)
+    expect { card.touch_out(station) }.to change { card.balance }.by (-min_amount)
   end
 
   it "raise error on touch in when balance is lower than £1" do
     card.top_up(90)
     card.send(:deduct, limit)
-    expect { card.touch_in(entry_station) }.to raise_error "Insufficient funds!"
+    expect { card.touch_in(station) }.to raise_error "Insufficient funds!"
   end
 
   it "stores the entry station" do
-    expect(card).to receive(:touch_in).with(entry_station)
+    expect(card).to receive(:touch_in).with(station)
     card.top_up(90)
-    card.touch_in(entry_station)
+    card.touch_in(station)
   end
 
   it "stores the journey" do
     card.top_up(90)
-    card.touch_in(entry_station)
-    card.touch_out(exit_station)
-    expect(card.exit_station).to eq exit_station
+    card.touch_in(station)
+    card.touch_out(station)
+    expect(card.exit_station).to eq station
   end
 
   it "stores a journey" do
     card.top_up(90)
-    card.touch_in(entry_station)
-    card.touch_out(exit_station)
-    expect(card.journeys).to include journey
+    card.touch_in("bank")
+    card.touch_out("waterloo")
+    expect(card.journey).to eq "bank" => "waterloo"
   end
 
   it "checks list of journeys" do
