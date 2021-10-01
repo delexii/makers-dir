@@ -1,28 +1,22 @@
-class SecretDiary
-  attr_accessor :diary, :title, :body, :locked
+require_relative "lock"
 
-  def initialize
+class SecretDiary
+  attr_accessor :diary, :title, :body, :padlock
+
+  def initialize(padlock = Lock.new)
     @diary = {}
-    @locked = true
+    @padlock = padlock
   end
 
   def add_entry(title, body)
-    raise "Diary is locked!" if @locked == true
+    raise "Diary is locked!" if @padlock.locked
     @title = title
     @body = body
     @diary[@title] = @body
   end
 
   def get_entry(title)
-    raise "Diary is locked!" if @locked == true
+    raise "Diary is locked!" if @padlock.locked
     @diary[@title]
-  end
-
-  def lock
-    @locked = true
-  end
-
-  def unlock
-    @locked = false
   end
 end
