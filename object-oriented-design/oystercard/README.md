@@ -68,41 +68,41 @@ Make fares depends on zones
 
 1. How to setup Gemfile
 
-A Gemfile describes the gem dependencies required to execute associated Ruby code.
+    A Gemfile describes the gem dependencies required to execute associated Ruby code.
 
-- run bundle init command from terminal
+    - run bundle init command from terminal
 
-- install rvm and rspec gems if needed
+    - install rvm and rspec gems if needed
 
-- check ruby -v and add that in the gemfile generated
+    - check ruby -v and add that in the gemfile generated
 
-- add gem 'rspec' to the group blocks test and development
+    - add gem 'rspec' to the group blocks test and development
 
-- check/add gem source
+    - check/add gem source
 
-- run bundle install from terminal to generate a Gemfile.lock file
+    - run bundle install from terminal to generate a Gemfile.lock file
 
-- run bundle from command line to check that all the gems have been successfully installed
+    - run bundle from command line to check that all the gems have been successfully installed
 
 2.  How to setup RSpec
 
-- run rspec —init from terminal to install the rspec conventional files
+    - run rspec —init from terminal to install the rspec conventional files
 
-- the . is the current directory, while .. signifies the parent directory.
+    - the . is the current directory, while .. signifies the parent directory.
 
 3. Implement first test (feature and unit) and watch it fail
 
-- use a stack trace to debug an error
+    - use a stack trace to debug an error
 
-- expect { "add method" }.to change { "another method" }.to 10
+    - expect { "add method" }.to change { "another method" }.to 10
 
 4. Use TDD to write unit tests that fail and then build the simplest code to make them pass. Refactor
 
 5. Initialize  - each instance of the Class that gets created comes automatically with a default attribute. So when you create a new Oystercard instance of the Oystercard class, that calls an initialize method automatically which takes in an argument balance with the value set to 0
 
-The initialize method is part of the object-creation process in Ruby & it allows you to set the initial values for an object.
+    The initialize method is part of the object-creation process in Ruby & it allows you to set the initial values for an object.
 
-In other programming languages they call this a “constructor”.
+    In other programming languages they call this a “constructor”.
 
 6. Using constants
 
