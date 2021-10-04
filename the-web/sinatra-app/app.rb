@@ -1,4 +1,4 @@
-# controlling concerns file - functionality
+# controlling concerns file - routing
 
 require 'sinatra'
 require "sinatra/reloader" if development?
