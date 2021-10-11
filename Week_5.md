@@ -201,7 +201,7 @@ Web drivers supported by Capybara:
     - a session stores data about browser
     - session ID =  session id goes into the cookies on the browser where the data gets stored
 
-    ![image.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe12bfe2-58ed-4ea4-8bd4-5207dd1cf253/image.jpeg)
+    ![Session Diagram](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe12bfe2-58ed-4ea4-8bd4-5207dd1cf253/image.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190753Z&X-Amz-Expires=86400&X-Amz-Signature=ceec2d771aa6f638077ce8f2555a5dffa647fb1d259152da09a990152815f2c6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22image.jpeg%22)
 
     *Feature tests Capybara*
 
