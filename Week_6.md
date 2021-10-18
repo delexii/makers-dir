@@ -73,7 +73,7 @@ There are three ways in which a table can be related to another table:
 - columns = keys - attributes
 - rows = collection of specific data points that correspond to a column (values)
 
-    ![Database Concepts](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/Database%20concepts.png)
+![Database Concepts](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/Database%20concepts.png)
 
 > Non-relational Databases
 
