@@ -32,10 +32,10 @@
 
 ## Things to celebrate
 
-- [ ]  having more of a work life balance
-- [ ]  being able to diagram MVC patterns easier
-- [ ]  being able to setup a project from scratch without using documentation
-- [ ]  being able to explain and create databases
+- [x]  having more of a work life balance
+- [x]  being able to diagram MVC patterns easier
+- [x]  being able to setup a project from scratch without using documentation
+- [x]  being able to explain and create databases
 
 ## Emotions
 
@@ -68,15 +68,12 @@ There are three ways in which a table can be related to another table:
 - highly structured
 - users interact with them using Structured Query Language (SQL)
 - the pattern of how everything is organised inside a relational database is a schema
-- related data is grouped together. I.e. The name, email and password of a single user are grouped together on the same row.
-
-    This is called "table normalisation" and reduces or eliminates data redundancy, or the unnecessary repetition of the same data, which both clogs up the system with information that doesn't need to be repeated as well as making it difficult to maintain that data.
-
+- related data is grouped together. I.e. The name, email and password of a single user are grouped together on the same row. This is called "table normalisation" and reduces or eliminates data redundancy, or the unnecessary repetition of the same data, which both clogs up the system with information that doesn't need to be repeated as well as making it difficult to maintain that data.
 - migrations = files that change your database are kept together (historical track)
 - columns = keys - attributes
 - rows = collection of specific data points that correspond to a column (values)
 
-    ![Database Concepts](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4fbe50b2-bad8-4d9c-a2fd-6382c4341229/Screenshot_2021-10-13_at_13.08.20.png)
+    ![Database Concepts](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/Database%20concepts.png)
 
 > Non-relational Databases
 
@@ -86,17 +83,17 @@ There are three ways in which a table can be related to another table:
 - they are good for easy setups since the schema is not required
 - the most commonly used non-relational databases are key/value stores, document databases and graph data stores
 
-![Database Management Services](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b23a563-2936-4aee-bdac-60c209c33b3b/Untitled.png)
+![Database Management Services](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/Databse%20Management%20Services.png)
 
 > Object Relational Mapping
 
 Object Relational Mapping is a technique for storing, retrieving, updating and deleting from an object-oriented program in a relational database
 
-![Object Relational Mapping](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6deb1147-ed1f-4cc0-b20e-317c0478d683/Screenshot_2021-10-15_at_10.40.01.png)
+![Object Relational Mapping](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/Object%20Relational%20Mapping.png)
 
 > MVC Pattern
 
-![MVC Pattern](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3289ba85-ac74-433d-9635-bb89ab2ee551/Screenshot_2021-10-15_at_14.46.04.png)
+![MVC Pattern](https://github.com/delexii/makers-dir/blob/33f40fd8c6ada0e6e04a91bcd122cce7f1bb4197/images/MVC%20Pattern.png)
 
 > SQL
 
@@ -189,13 +186,10 @@ SELECT attribute-list
 - [ ]  Representational State Transfer
 
     REST is about
-
     **Nouns:** Resources (e.g. *restaurants)*
-
     **Verbs:** HTTP verbs (*POST, GET, PATCH, DELETE)*
 
     When you want to write a web app, you need a few more routes on top of the basic create, read, update and delete. You need:
-
     - A route for listing all the records for a certain resource (e.g. all the restaurants).
     - A route to show a web form for entering the details of a new record.
     - A route to show a web form for entering the new details of an existing record.
