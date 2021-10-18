@@ -6,11 +6,11 @@
 - [x] Version control projects
 - [x] Write a procedural program
 - [x] Use a process for solving a problem
-- [x] [Mastery Quizzes, Chapter 6](https://mastery-curriculum.makers.tech/chapter6/)
-- [x] [Mastery Quizzes, Chapter 7](https://mastery-curriculum.makers.tech/chapter7/)
-- [x] [Mastery Quizzes, Chapter 8](https://mastery-curriculum.makers.tech/chapter8/)
-- [x] [Mastery Quizzes, Chapter 9](https://mastery-curriculum.makers.tech/chapter9/)
-- [x] [Mastery Quizzes, Chapter 10](https://mastery-curriculum.makers.tech/chapter10/)
+- [Mastery Quizzes, Chapter 6](https://mastery-curriculum.makers.tech/chapter6/)
+- [Mastery Quizzes, Chapter 7](https://mastery-curriculum.makers.tech/chapter7/)
+- [Mastery Quizzes, Chapter 8](https://mastery-curriculum.makers.tech/chapter8/)
+- [Mastery Quizzes, Chapter 9](https://mastery-curriculum.makers.tech/chapter9/)
+- [Mastery Quizzes, Chapter 10](https://mastery-curriculum.makers.tech/chapter10/)
 
 ## Applied Learnings
 

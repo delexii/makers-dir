@@ -92,11 +92,8 @@ Introduction to domain model diagrams
 - diagram = visual representation of workflow/sequence of events
 - domain = environment, blueprint
 - shapes for the objects of interest and arrows to point the interaction between them (methods)
-
     instance variables = states of classes
-
     methods = behaviour of classes
-
 - Unified Modelling Language when working with other devs
 - black box model or sequence diagram = what goes in and out of a method
 

@@ -16,7 +16,7 @@
 - Servers/clients: [Battle Game](https://github.com/delexii/battle-game)
 - Build a simple app: [Rock Paper Scissors](https://github.com/delexii/rps-challenge-apprenticeships)
 
-![Screenshot](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/524f0c68-c049-453d-a9c2-0f780673178c/Screenshot_2021-10-09_at_21.43.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190524Z&X-Amz-Expires=86400&X-Amz-Signature=3d1803e43a29077cf32513f8d536285348d00d7155c6740ec2eb79f630c7459f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202021-10-09%2520at%252021.43.47.png%22)
+![Rock Paper Scissors Diagram](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/524f0c68-c049-453d-a9c2-0f780673178c/Screenshot_2021-10-09_at_21.43.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190524Z&X-Amz-Expires=86400&X-Amz-Signature=3d1803e43a29077cf32513f8d536285348d00d7155c6740ec2eb79f630c7459f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202021-10-09%2520at%252021.43.47.png%22)
 
 ## Personal Learning Objectives
 
@@ -49,7 +49,7 @@ The workshop on debugging was particularly helpful this week.
 
     request response to browser - not all source code is being sent as some are private server side documents
 
-    ![Browser Server Interaction](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4c74087f-8542-4cb2-b69d-c6ad7a753d8e/Screenshot_2021-10-04_at_11.36.08.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190543Z&X-Amz-Expires=86400&X-Amz-Signature=6e0342887ee9f10aa89840b2d4d887fdd9881a6ee511d7c88e0a899a1eb3162a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202021-10-04%2520at%252011.36.08.png%22)
+    ![World Wide Web explained](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4c74087f-8542-4cb2-b69d-c6ad7a753d8e/Screenshot_2021-10-04_at_11.36.08.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190543Z&X-Amz-Expires=86400&X-Amz-Signature=6e0342887ee9f10aa89840b2d4d887fdd9881a6ee511d7c88e0a899a1eb3162a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot%25202021-10-04%2520at%252011.36.08.png%22)
 
 - server = piece of software that runs on a computer
 - server - listen to requests and send back files
@@ -173,7 +173,7 @@ Web drivers supported by Capybara:
 
 3. HTTP requests can contain parameters, embedded into the URL as a query string.
 
-![HTTP](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d4b6f383-20e0-43c0-948c-ed9179f66786/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190638Z&X-Amz-Expires=86400&X-Amz-Signature=72d67f0a145898581659b3b57bbffdc3d1faecdeee092e9255e1d891e08a36ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![Client Server Diagram](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d4b6f383-20e0-43c0-948c-ed9179f66786/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211011T190638Z&X-Amz-Expires=86400&X-Amz-Signature=72d67f0a145898581659b3b57bbffdc3d1faecdeee092e9255e1d891e08a36ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 4. Set up a basic Sinatra app and use Sinatra Reloader
 5. Create routes and make them return html elements/forms
