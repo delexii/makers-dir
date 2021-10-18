@@ -194,7 +194,8 @@ SELECT attribute-list
 
     Rails has a set of conventions for what URLs to use for these extra things:
 
-    `Verb    URI Pattern            Controller#action
+    ```ruby
+    Verb    URI Pattern            Controller#action
     ------  ---------------------  ------------------
     GET     /restaurants           restaurants#index
     POST    /restaurants           restaurants#create
@@ -203,7 +204,8 @@ SELECT attribute-list
     GET     /restaurants/:id       restaurants#show
     PATCH   /restaurants/:id       restaurants#update
     PUT     /restaurants/:id       restaurants#update
-    DELETE  /restaurants/:id       restaurants#destroy`
+    DELETE  /restaurants/:id       restaurants#destroy
+    ```
 
     ```ruby
     DELETE /bookmarks/1
