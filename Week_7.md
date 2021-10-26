@@ -61,7 +61,7 @@ The biggest learning comes from understanding git branching and the importance o
 - Create a minimum viable product (MVP)
 - Domain Modelling (MVC Diagrams)
 
-![Trello Board](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/493e6cef-0a29-44f9-a5e1-0de28edab5af/Screenshot_2021-10-25_at_09.21.23.png)
+![Trello Board](https://github.com/delexii/makers-dir/blob/686e66020f3bbe25bea658ee1243f12c56286bff/images/Trello%20Board.png)
 
 **Team Goals**
 
