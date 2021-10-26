@@ -1,8 +1,12 @@
 package WordGame;
 
+import java.util.Random;
+
 public class Game {
 
     private String word;
+    private Integer counter = 10;
+    static final String[] DICTIONARY = { "MAKERS", "CANDIES", "DEVELOPER", "LONDON" };
 
     public Game(String word) {
         this.word = word;
@@ -19,6 +23,15 @@ public class Game {
             }
         }
         return builder.toString();
+    }
+
+    public Integer getRemainingAttempts() {
+        return this.counter;
+    }
+
+    public String getRandomWordFromDictionary() {
+        Random rand = new Random();
+        return DICTIONARY[rand.nextInt(DICTIONARY.length)];
     }
 
 }
