@@ -1,21 +1,21 @@
 package WordGame;
 
-import java.util.Random;
-
 public class Game {
 
-    private String word;
+    WordChooser chooser;
     private Integer counter = 10;
-    static final String[] DICTIONARY = { "MAKERS", "CANDIES", "DEVELOPER", "LONDON" };
+    private String chosenword;
 
-    public Game(String word) {
-        this.word = word;
+    // attribute passed in from another class
+    public Game(WordChooser chooser) {
+        this.chooser = chooser;
+        this.chosenword = chooser.getRandomWordFromDictionary();
     }
 
     public String getWordToGuess() {
         StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < this.word.length(); i++) {
-            Character currentLetter = word.charAt(0);
+        for (int i = 0; i < this.chosenword.length(); i++) {
+            Character currentLetter = chosenword.charAt(0);
             if (i == 0) {
                 builder.append(currentLetter);
             } else {
@@ -27,11 +27,6 @@ public class Game {
 
     public Integer getRemainingAttempts() {
         return this.counter;
-    }
-
-    public String getRandomWordFromDictionary() {
-        Random rand = new Random();
-        return DICTIONARY[rand.nextInt(DICTIONARY.length)];
     }
 
 }
