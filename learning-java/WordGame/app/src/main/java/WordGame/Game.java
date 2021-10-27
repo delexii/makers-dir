@@ -1,10 +1,13 @@
 package WordGame;
 
+import java.util.ArrayList;
+
 public class Game {
 
     WordChooser chooser;
-    private Integer counter = 10;
+    public Integer counter = 10;
     private String chosenword;
+    public ArrayList<Character> guessedLetters = new ArrayList<Character>();
 
     // attribute passed in from another class
     public Game(WordChooser chooser) {
@@ -27,6 +30,20 @@ public class Game {
 
     public Integer getRemainingAttempts() {
         return this.counter;
+    }
+
+    public Boolean guessLetter(Character letter) {
+        if (this.chosenword.indexOf(letter) == -1) {
+            counter--;
+            return false;
+        } else {
+            guessedLetters.add(letter);
+            return true;
+        }
+    }
+
+    public ArrayList<Character> getAll() {
+        return guessedLetters;
     }
 
 }
