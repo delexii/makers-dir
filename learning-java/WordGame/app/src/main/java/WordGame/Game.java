@@ -4,20 +4,23 @@ import java.util.ArrayList;
 
 public class Game {
 
+    Masker masker;
     WordChooser chooser;
-    // public Boolean is_finished = false;
+    String chosenWord;
+    String placeholder;
+
     public Integer counter = 10;
-    private String chosenword;
     public ArrayList<Character> guessedLetters = new ArrayList<Character>();
 
     // attribute passed in from another class
-    public Game(WordChooser chooser) {
+    public Game(Masker masker, WordChooser chooser) {
+        this.masker = masker;
         this.chooser = chooser;
-        this.chosenword = chooser.getRandomWordFromDictionary();
+        this.chosenWord = chooser.getRandomWordFromDictionary();
     }
 
     public Boolean isGameWon() {
-        String placeholder = this.getWordToGuess();
+        this.placeholder = this.getWordToGuess();
         if (placeholder.indexOf('_') == -1) {
             return true;
         } else {
@@ -34,18 +37,7 @@ public class Game {
     }
 
     public String getWordToGuess() {
-        StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < this.chosenword.length(); i++) {
-            Character currentLetter = chosenword.charAt(i);
-            if (i == 0) {
-                builder.append(currentLetter);
-            } else if (guessedLetters.indexOf(currentLetter) > -1) {
-                builder.append(currentLetter);
-            } else {
-                builder.append("_");
-            }
-        }
-        return builder.toString();
+        return this.masker.getMaskedWord(this.chosenWord, this.guessedLetters);
     }
 
     public Integer getRemainingAttempts() {
@@ -53,12 +45,12 @@ public class Game {
     }
 
     public Boolean guessLetter(Character letter) {
-        if (this.chosenword.indexOf(letter) == -1) {
+        if (this.chosenWord.indexOf(letter) != -1) {
+            this.guessedLetters.add(letter);
+            return true;
+        } else {
             counter--;
             return false;
-        } else {
-            guessedLetters.add(letter);
-            return true;
         }
     }
 

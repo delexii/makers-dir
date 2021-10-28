@@ -8,8 +8,7 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        WordChooser chooser = new WordChooser();
-        Game game = new Game(chooser);
+        Game game = new Game(new Masker(), new WordChooser());
         System.out.println("Welcome! Today the word to guess is:");
 
         while (game.counter > 0 && game.isGameWon() == false) {
