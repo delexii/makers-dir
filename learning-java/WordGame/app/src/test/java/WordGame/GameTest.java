@@ -41,4 +41,13 @@ public class GameTest {
         // assertTrue(guessedLetters.isEmpty()); Can also import ArrayList util and add
         // the ArrayList
     }
+
+    @Test
+    public void testDisplaysLetterGuessed() {
+        WordChooser mocked = mock(WordChooser.class);
+        when(mocked.getRandomWordFromDictionary()).thenReturn("MAKERS");
+        Game game = new Game(mocked);
+        assertEquals(game.guessLetter('A'), true);
+        assertEquals(game.getWordToGuess(), "MA____");
+    }
 }

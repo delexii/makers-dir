@@ -18,10 +18,12 @@ public class Game {
     public String getWordToGuess() {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < this.chosenword.length(); i++) {
-            Character currentLetter = chosenword.charAt(0);
+            Character currentLetter = chosenword.charAt(i); 
             if (i == 0) {
                 builder.append(currentLetter);
-            } else {
+            } else if(guessedLetters.indexOf(currentLetter) > -1){
+                builder.append(currentLetter);
+            } else{
                 builder.append("_");
             }
         }
