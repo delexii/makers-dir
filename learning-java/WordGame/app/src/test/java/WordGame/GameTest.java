@@ -50,4 +50,29 @@ public class GameTest {
         assertEquals(game.guessLetter('A'), true);
         assertEquals(game.getWordToGuess(), "MA____");
     }
+
+    @Test
+    public void testisGameLost() {
+        WordChooser mocked = mock(WordChooser.class);
+        when(mocked.getRandomWordFromDictionary()).thenReturn("MAKERS");
+        Game game = new Game(mocked);
+        for (int i = 0; i < 10; i++) {
+            assertEquals(game.guessLetter('I'), false);
+        }
+        assertEquals(game.isGameLost(), true);
+    }
+
+    @Test
+    public void testisGameWon() {
+        WordChooser mocked = mock(WordChooser.class);
+        when(mocked.getRandomWordFromDictionary()).thenReturn("MAKERS");
+        Game game = new Game(mocked);
+        assertEquals(game.guessLetter('A'), true);
+        assertEquals(game.guessLetter('K'), true);
+        assertEquals(game.guessLetter('E'), true);
+        assertEquals(game.guessLetter('R'), true);
+        assertEquals(game.guessLetter('S'), true);
+        assertEquals(game.isGameWon(), true);
+    }
+
 }

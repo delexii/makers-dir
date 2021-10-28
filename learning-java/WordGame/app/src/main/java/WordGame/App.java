@@ -12,9 +12,9 @@ public class App {
         Game game = new Game(chooser);
         System.out.println("Welcome! Today the word to guess is:");
 
-        while (game.counter > 0 && game.is_finished == false) {
+        while (game.counter > 0 && game.isGameWon() == false) {
             System.out.println(game.getWordToGuess());
-            System.out.printf("Turns remaining: %d Enter a character: %nI", game.counter);
+            System.out.printf("Turns remaining: %d Enter a character: %n", game.counter);
 
             Scanner scanner = new Scanner(System.in);
             Character guess = scanner.nextLine().charAt(0);
@@ -24,6 +24,11 @@ public class App {
                 System.out.println("You guessed incorrect!");
             }
 
+        }
+        if (game.isGameLost()) {
+            System.out.println("You lost");
+        } else {
+            System.out.println("You win");
         }
     }
 }

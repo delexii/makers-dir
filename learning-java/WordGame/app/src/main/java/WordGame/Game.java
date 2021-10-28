@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Game {
 
     WordChooser chooser;
-    public Boolean is_finished = false;
+    // public Boolean is_finished = false;
     public Integer counter = 10;
     private String chosenword;
     public ArrayList<Character> guessedLetters = new ArrayList<Character>();
@@ -16,15 +16,32 @@ public class Game {
         this.chosenword = chooser.getRandomWordFromDictionary();
     }
 
+    public Boolean isGameWon() {
+        String placeholder = this.getWordToGuess();
+        if (placeholder.indexOf('_') == -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public Boolean isGameLost() {
+        if (counter == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public String getWordToGuess() {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < this.chosenword.length(); i++) {
-            Character currentLetter = chosenword.charAt(i); 
+            Character currentLetter = chosenword.charAt(i);
             if (i == 0) {
                 builder.append(currentLetter);
-            } else if(guessedLetters.indexOf(currentLetter) > -1){
+            } else if (guessedLetters.indexOf(currentLetter) > -1) {
                 builder.append(currentLetter);
-            } else{
+            } else {
                 builder.append("_");
             }
         }
