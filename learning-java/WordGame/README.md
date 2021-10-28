@@ -8,5 +8,5 @@
 - [x] The player will then be prompted to enter a letter they think might be in the word.
 - [x] If the letter is in the word, the game will display the word to guess, with the new letter visible.
 - [x] If the letter is not in the word, the game will display the same letters as before, and decrease the counter of remaining attempts.
-- [ ] If the counter of attempts reaches zero, the player loses.
-- [ ] If the player finds all the letters in the word, they win.
+- [x] If the counter of attempts reaches zero, the player loses.
+- [x] If the player finds all the letters in the word, they win.
