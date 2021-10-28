@@ -4,11 +4,11 @@
 package WordGame;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+    
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        WordChooser chooser = new WordChooser();
+        Game game = new Game(chooser);
+        System.out.println(game.getWordToGuess());
     }
 }
