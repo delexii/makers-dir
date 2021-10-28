@@ -22,6 +22,7 @@ public class App {
             } else {
                 System.out.println("You guessed incorrect!");
             }
+            scanner.close();
 
         }
         if (game.isGameLost()) {
