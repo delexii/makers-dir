@@ -10,3 +10,6 @@
 - [x] If the letter is not in the word, the game will display the same letters as before, and decrease the counter of remaining attempts.
 - [x] If the counter of attempts reaches zero, the player loses.
 - [x] If the player finds all the letters in the word, they win.
+
+### Demo
+![WordGame Demo](https://github.com/delexii/makers-dir/blob/e84d42fb96abf561c25e075b169832a1bde349e4/learning-java/WordGame/app/public/WordGameDemo.mov)
