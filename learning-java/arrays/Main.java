@@ -40,21 +40,48 @@ public class Main {
         // }
         // System.out.println();
 
-        // Array Lists = resizeable array. Elements can be added or removed after
-        // compilation.
+        // Array Lists
+        // = resizeable array. Elements can be added or removed after compilation.
         // = only store reference data types
 
-        ArrayList<String> food = new ArrayList<String>();
-        food.add("Pizza");
-        food.add("Burger");
-        food.add("Chips");
+        // ArrayList<String> food = new ArrayList<String>();
+        // food.add("Pizza");
+        // food.add("Burger");
+        // food.add("Chips");
 
-        for (int i = 0; i < food.size(); i++) {
-            System.out.println(food.get(i));
-        }
+        // for (int i = 0; i < food.size(); i++) {
+        // System.out.println(food.get(i));
+        // }
 
         // food.set(0, "Sushi"); // replace elements at index
         // food.remove(2); // remove element at index
         // food.clear(); // deletes elements from list;
+
+        // Multidimensional Array Lists
+
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+
+        ArrayList<String> bakeryList = new ArrayList<>();
+        bakeryList.add("Pasta");
+        bakeryList.add("Garlic Bread");
+        bakeryList.add("Doughnuts");
+
+        ArrayList<String> produceList = new ArrayList<>();
+        produceList.add("Tomatoes");
+        produceList.add("Zucchini");
+        produceList.add("Peppers");
+
+        ArrayList<String> drinksList = new ArrayList<>();
+        drinksList.add("Sprite");
+        drinksList.add("Wine");
+
+        groceryList.add(bakeryList);
+        groceryList.add(produceList);
+        groceryList.add(drinksList);
+
+        System.out.println(groceryList);
+        System.out.println(groceryList.get(0).get(0));
+        System.out.println(groceryList.get(2).get(1));
+
     }
 }
