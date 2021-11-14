@@ -26,7 +26,7 @@
 - [x]  use ArrayList and understand how they work
 - [x]  read use input using the Scanner class
 
-**Things to celebrate**
+## Things to celebrate
 
 - [x]  building a completely new app in Java
 - [x]  starting a crash course on Java in my own time to be able to catch up on the fundamentals
