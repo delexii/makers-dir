@@ -69,9 +69,7 @@ Final presentation: [https://www.youtube.com/watch?v=RXSIiDJuVV8](https://www.yo
 > Learn libGDX
 > 
 
-libGDX is a framework for developing cross-platform games. So you can develop one code for different platforms, such as Android, iOS, Windows, Linux, macOS, and Web. It’s written in Java and provides a bunch of great functionality including drawing API’s, sound, asset handling, storage, etc.) for making game development much easier. It has sufficient
-
-[documentation](https://libgdx.badlogicgames.com/documentation/) to get you started.
+libGDX is a framework for developing cross-platform games. So you can develop one code for different platforms, such as Android, iOS, Windows, Linux, macOS, and Web. It’s written in Java and provides a bunch of great functionality including drawing API’s, sound, asset handling, storage, etc.) for making game development much easier. It has sufficient [documentation](https://libgdx.badlogicgames.com/documentation/) to get you started.
 
 [https://classroom.udacity.com/courses/ud405/lessons/5358108551/concepts/53280791390923](https://classroom.udacity.com/courses/ud405/lessons/5358108551/concepts/53280791390923)
 
@@ -151,16 +149,12 @@ Extended MVP
 > 
 1. [Preparetocode.io](http://Preparetocode.io) - install all software needed
 2. Install git using homebrew
-3. Git setup from command line using makers instructions
+3. Git setup from command line using makers instructions [Setting up Git locally](https://www.notion.so/Setting-up-Git-locally-835aad4248c94725bd2df0d8cb085198)
 
-[Setting up Git locally](https://www.notion.so/Setting-up-Git-locally-835aad4248c94725bd2df0d8cb085198)
+4. Authenticate using brew install gh and gh auth login CLI [https://docs.github.com/en/github-cli/github-cli/quickstart](https://docs.github.com/en/github-cli/github-cli/quickstart)
 
-1. Authenticate using brew install gh and gh auth login CLI
-
-[https://docs.github.com/en/github-cli/github-cli/quickstart](https://docs.github.com/en/github-cli/github-cli/quickstart)
-
-1. Install IntelliJ IDEA
-2. Install Java for macOS Intel
+5. Install IntelliJ IDEA
+6. Install Java for macOS Intel
 
 ## Useful resources
 
